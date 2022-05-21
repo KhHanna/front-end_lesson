@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root {
+    font-family:'Roboto', sans-serif;
+   src: url('/front-end_lesson/lesson_06/home-work/Roboto.zip')
+
+  }
+  .container__box {
+    height: 507px;
+    width: 793px;
+    background: #3B3F45;
+    }
+
+  .header__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    padding: 19px;
+    color: #FF8984;
+  }
+
+  .header__container {
+    padding: 4px;
+      background: #4A4F56;
+    }
+    
+  .header__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      text-align: center;
+      line-height: 19px;
+      color: #FF8984;
+
+      }
+
+        /* таблиця*/
+
+  .container {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 18px;
+  left: 176pc;
+  color: #FFFFFF;
+  text-align: left;
+top: 102px;
+background-position: center;
+}
+
+#table tbody tr:nth-child{
+	background: #88839E;
+}
+#table tbody tr:nth-child{
+	background: #7A7593;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position:absolute;
+  top: 114;
+  left: 141;
+  height: 19px;
+  width: 19px;
+  background-color: #eee;
+}
+.checklist {
+height: 45px;
+padding: 129px;
+top: 102px;
+background-position: center;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #FFFFFF;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid rgb(0, 0, 0);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#table tbody tr:nth-child(odd){
+	background: #88839E;
+}
+#table tbody tr:nth-child(even){
+	background: #7A7593;
+
+}
+  
