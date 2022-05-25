@@ -8,72 +8,91 @@
    src: url('/front-end_lesson/lesson_06/home-work/Roboto.zip')
 
   }
-  .container__box {
-    height: 507px;
-    width: 793px;
-    background: #3B3F45;
-    }
+.container__box {
+height: 507px;
+width: 793px;
+background: #3B3F45;
+}
 
-  .header__title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    padding: 19px;
-    color: #FF8984;
-  }
+.header__title {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+padding: 19px;
+color: #FF8984;
+}
 
-  .header__container {
-    padding: 4px;
-      background: #4A4F56;
-    }
+.header__container {
+padding: 4px;
+background: #4A4F56;
+}
     
-  .header__text {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 19px;
-      text-align: center;
-      line-height: 19px;
-      color: #FF8984;
+.header__text {
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+line-height: 19px;
+color: #FF8984;
 
-      }
+}
 
         /* таблиця*/
-
-  .container {
-  display: block;
-  margin-bottom: 12px;
-  font-size: 18px;
-  left: 176pc;
-  color: #FFFFFF;
-  text-align: left;
+.container__text{
+margin-bottom: 12px;
+font-size: 18px;
+left: 176pc;
+color: #FFFFFF;
+text-align: left;
 top: 102px;
 background-position: center;
 }
 
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+/*display: block;
+margin-bottom: 12px;
+font-size: 18px;
+left: 176pc;
+color: #FFFFFF;
+text-align: left;
+top: 102px;
+background-position: center;*/
+}
+
 #table tbody tr:nth-child{
-	background: #88839E;
+background: #88839E;
 }
 #table tbody tr:nth-child{
-	background: #7A7593;
+background: #7A7593;
 }
 
 .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
 }
 
 .checkmark {
-  position:absolute;
-  top: 114;
-  left: 141;
-  height: 19px;
-  width: 19px;
-  background-color: #eee;
+position: absolute;
+/*top: 114;
+left: 141;*/
+top: 0;
+left: 0;
+height: 19px;
+width: 19px;
+background-color: #eee;
 }
+
 .checklist {
 height: 45px;
 padding: 129px;

@@ -4,20 +4,19 @@
 }
 
 :root {
- font-family: 'Open Sans' sans-serif;
- src: url('../fons/Open_Sans.zip');
-  --main-font-color: #070707;
+ --main-font: 'Open Sans', sans-serif;
+ --main-font-color: #070707;
 }
 
 body {
   font-family: var(--main-font);
-  color: var(--main-font-color);
-}
+  color: var(--main-font-color);}
 
 .container {
   width: 100%;
   max-width: 943px;
   margin: 0 auto;
+  display: flex;
   /* margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -108,13 +107,15 @@ body {
 .about-me__text {
   margin-bottom: 48px;
   color: (--main-font-color);
-(var(--main-font));
-
-
-  
-
-
+  (var(--main-font));
+}
 .about-me__text:last-child {
   margin-bottom: 0;
-
 }
+
+.skills__container{
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+ 

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 2500px;
+  height: 800px;
+}
+
+.container_box1 {
+  width: 800px;
+  height: 800px;
+  background: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  }
+  
+  .container__smallbox {
+  height: 100px;
+  width: 100px;
+  background: #3836C9;
+  
+  }
+
+  .container_box2 {
+    width: 800px;
+    height: 800px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container_box3 {
+    width: 800px;
+    height: 800px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+  }
+
+   
