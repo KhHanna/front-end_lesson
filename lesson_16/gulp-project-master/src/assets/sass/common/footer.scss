@@ -1,0 +1,45 @@
+.footer {
+    background: $color-footer;
+    padding: 120px 0px 130px;
+    @media (max-width: $tab) {
+        padding: 64px 0 68px;
+    }
+
+    
+
+   &__container{
+       display: flex;
+       justify-content: space-between;
+       @media (max-width: $tab){
+           flex-direction: column;
+       }
+   }
+
+   &__description {
+       max-width: 208px;
+       margin-top: auto;
+       font-size: 12px;
+       line-height: 20px;
+
+   }
+   &__item {
+       display: flex;
+       flex-direction: column;
+       gap: 24px;
+       
+   }
+
+   &__list {
+     display: flex;
+     flex-direction: column;
+     gap: 24px;
+     @media (max-width: $tab){
+        padding: 48px 0;
+    }
+}
+&__number {
+    padding: 32px 0 0;
+}
+
+
+}
