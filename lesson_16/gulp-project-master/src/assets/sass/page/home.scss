@@ -43,28 +43,71 @@
     //slider section end
     .info {
         padding: 160px;
+        @media (max-width: $tab) {
+            padding: 64px 16px 48px;
+        }
 
         &__container {
             display: flex;
             justify-content: space-between;
+            @media (max-width: $tab){
+                flex-direction: column;
+                padding: 64px 20px 48px;
+                gap: 76px;
+            }
         }
 
         &__sub-title {
             padding: 0 210px 0 0;
+            @media (max-width: $tab){
+             padding: 0px;
+    
         }
+           
 
-        &__arrow {
-            position: absolute;
-            width: 23px;
-            height: 0px;
-            left: 160px;
-            top: 1335px;
-
-
-
-
-            //  padding: 48px 615px 196px 160px;
-        }
+        // &__arrow {
+        //     position: absolute;
+        //     width: 23px;
+        //     height: 0px;
+        //     left: 160px;
+        //     top: 1335px;
+        //     @media (max-width: $tab) {
+        //         padding: 28px 228px 48px 16px;
+        //     }
+        // }
     }
+    }
+    .posts{
+        padding: 128px 101px 128px 160px;
 
+        &__container{
+            display: flex;
+            justify-content: space-around;
+            gap:34px;
+            
+        
+        }
+        &__description{
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            line-height: 20px;
+            padding: 24px 0;
+        }
+    
+    
+       &__card{
+        max-width: 350px;
+        }
+        &__sub-title1{
+            position: absolute;
+            width: 319px;
+            left: 160px;
+            top: 1600px;
+        }
+        &__text{
+            padding: 24px 0;
+        }
+
+    }
 }
