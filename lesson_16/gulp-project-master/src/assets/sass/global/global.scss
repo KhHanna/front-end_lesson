@@ -52,20 +52,79 @@ body {
     }
 }
 
+.h1 {
+    font-family: $sub-font;
+    font-weight: 400;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: 0.05em;
+color: #000000;
+}
+
+.h3 {
+    font-family: $sub-font;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $color-black;
+}
+
+.h4 {
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.05em;
+color: $color-h4;
+}
+
 .h5 {
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
+    color: $color-h5;
 }
 
-.img {
-    width: 350px;
-    height: 250px;
+.h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: $color-h6;
 }
 
-// @media (max-width: 991px) {
-//     .title {
-//         font-size: 33px;
-//         line-height: 50px;
-//     }
-// }
+.h9 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: $color-h6;
+}
+.h7 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.arrow {
+    width: 23px;
+}
+
+.icon {
+    width: 18.82px;
+}
+
+.img-post{
+    width: 1120px;
+ }
+
+ .img-writer {
+    width: 70px;
+ }
+
+ .button {
+    background: #565656;
+    border: none;
+    padding: 8px 34px;
+ }

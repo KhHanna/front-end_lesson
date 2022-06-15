@@ -1,3 +1,93 @@
-.post {
-    background-image: url('../img/logo.svg');
+.post1 {
+
+ padding: 135px 160px;
+ @media (max-width: $tab) {
+    padding: 73px 0 68px;
+    display: flex;
+    flex-direction: column;
 }
+    // background-image: url('../img/logo.svg');
+
+    &__header{
+        width: 640px;
+    }
+    &__description{
+        padding: 48px 0 64px;
+        display: flex;
+        justify-content: start;
+        gap: 40px;
+        @media (max-width: $tab){
+            flex-direction: column;
+        }
+    }
+    &__title{
+        padding: 24px 0 0;
+    }
+
+    &__writer {
+        display: flex;
+        padding: 41px 0px 0px 350px;
+        gap: 8px;
+    }
+   &__text {
+    display: flex;
+    flex-direction: row;
+    gap:91px;
+    @media (max-width: $tab){
+        flex-direction: column;
+    }
+   } 
+
+                &__img-writer{
+                width:70px;
+                height: 70px;
+                }
+
+      &__solid{
+        padding-left: 54px;
+        border-left: 1px solid;
+        margin: auto;
+      }       
+      
+      &__information{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+      }
+      &__information3{
+        display: flex;
+        gap: 16px;
+        
+      }
+      &__info{
+        display: flex;
+        justify-content: space-between;
+        padding: 64px 0 0 ;
+      }
+      &__name{
+        display: flex;
+        flex-direction: column;       
+      }
+
+      &__info-colomn{
+        display: flex;
+        flex-direction: column;       
+    }
+
+    input{
+        outline: none;
+        border: none;
+        border-bottom: 1px solid;
+        margin: auto;  
+  }
+  &__checkbox-label{
+    display: flex;
+    padding: 50px 0 ;
+    }
+  &__info-comment{
+    padding: 24px 0;
+  }
+
+    
+}
+
